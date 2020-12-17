@@ -20,6 +20,7 @@ export default {
       body: 'default body'
     }
   },
+  //first commit test
   async asyncData(context: {param: Object | undefined, req: any, res: Object}) {
     const {param, req, res} = context
     console.log('this is console', res)
